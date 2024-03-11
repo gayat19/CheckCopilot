@@ -1,0 +1,64 @@
+
+
+/*nav bar style*/
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    /* text-align: center; */
+    color: white;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: white;
+}
+/*section to be styled side by side and with margin inbetween and float next to each other */
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}   
+
+/*imgages style with medium height and width also with border radius*/
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+/*media query to ajust the image size when the screen is smaller */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}   
+
+/* remove default style for a tag */
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Hover effect  for the a tag should be increased font size */
+a:hover {
+    font-size: 1.2em;
+    color: cream;
+    text-decoration: underline;
+}
+
+
+/*footer style */
+
+footer {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/*anchor tag style in footer with good margin inbetween */
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+

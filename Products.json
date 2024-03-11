@@ -1,0 +1,34 @@
+[
+  {
+    "id": "001",
+    "name": "Pencil",
+    "description": "HB Graphite Pencil",
+    "price": 0.99,
+    "currency": "USD",
+    "category1": "Stationery",
+    "category2": "Writing",
+    "manufacturer": "Pencil Manufacturer",
+    "inStock": true,
+    "weight": "5g",
+    "color": "Yellow",
+    "dimensions": "19cm",
+    "averageRating": 4.2,
+    "reviews": 200
+  },
+  {
+    "id": "002",
+    "name": "Pen",
+    "description": "Blue Ballpoint Pen",
+    "price": 1.99,
+    "currency": "USD",
+    "category1": "Stationery",
+    "category2": "Writing",
+    "manufacturer": "Pen Manufacturer",
+    "inStock": true,
+    "weight": "10g",
+    "color": "Blue",
+    "dimensions": "15cm",
+    "averageRating": 4.8,
+    "reviews": 500
+  }
+]
